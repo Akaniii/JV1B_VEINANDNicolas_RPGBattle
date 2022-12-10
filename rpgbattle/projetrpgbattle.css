@@ -1,0 +1,72 @@
+top{
+display: flex;
+flex-direction: column;
+}
+.bulles{
+    display: flex;
+    border: 2px solid red;
+    width:100;
+    background-color:salmon;
+}
+
+bulles{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+mechant{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+imagemonstre{
+    
+    display: flex; 
+    width: 100%; ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nom{
+    display: flex;
+    border: 2px solid red;
+    width:100;
+    background-color:salmon;
+}
+
+nom{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}.pv{
+    display: flex;
+    border: 2px solid green;
+    width:100;
+    background-color:chartreuse;
+}
+
+pv{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.mana{
+    display: flex;
+    border: 2px solid blue;
+    width:100;
+    background-color:darkcyan;
+}
+
+mana{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+bottom{
+    position: absolute;
+    bottom: 0%;
+    margin-left: 50%;
+}
